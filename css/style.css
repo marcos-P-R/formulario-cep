@@ -1,0 +1,63 @@
+.box-form{
+    border: solid 1px #e76a22;
+    border-radius: 5px;
+    width: 32em;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 1em rgba(17, 17, 17, 0.22);
+    transition: all 0.3s ease-out;
+}
+
+.box-form:hover {
+    border: solid 1px rgba(0, 255, 0, 0.973);
+    box-shadow: 0 0 1em rgba(0, 255, 0, 0.973);
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+h3, label{
+    text-align: center;
+}
+
+input{
+    border: solid 1px #e7e74a;
+    margin: 12px;
+    padding: 4px;
+    width: 24em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    transition: all 0.5s ease-out;
+}
+
+input:hover{
+    border: solid 1px #50ec11;
+    margin: 12px;
+    padding: 6px;
+    width: 36em;
+    transform: translateY(-2px);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+input #dataNascimento{
+    border: solid 1px #e7e74a;
+    margin: 12px;
+    padding: 4px;
+    width: 24em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
